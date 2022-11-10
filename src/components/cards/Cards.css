@@ -1,0 +1,21 @@
+.inside-body {
+    margin: auto;
+    height: 90%;
+    border-style: dashed;
+    border-width: thin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+
+}
+
+.upload-image {
+    opacity: 0.7;
+    margin: 10%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    height: 40%;
+    width: 22%;
+}

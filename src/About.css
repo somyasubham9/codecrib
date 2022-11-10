@@ -1,0 +1,107 @@
+.about-page-container{
+    padding: 3% 4%;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(270deg, #240b36, #c31432);
+}
+
+.about-code-crib-page-container{
+    padding: 3% 4%;
+    /* min-height: 100vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.about-code-crib-heading{
+    color: #fff;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.about-us-heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.image-about{
+    height: 300px;
+}
+
+.about-us-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about-us-text-div{
+    width: 40%;
+    color: white;
+    /* background: linear-gradient(90deg, #021b79, #240b36); */
+    /* width: 200px; */
+    /* padding: 20px 0; */
+}
+
+.about-name{
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-weight: 1.2rem;
+}
+
+.about-role{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.about-para{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 880px) {
+    .image-about{
+        height: 180px;
+    }
+    .about-us-card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-us-text-div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-para{
+        text-align: center;
+        font-size: 55%;
+        width: 100%;
+    }
+
+    .about-name{
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 80%;
+    }
+    
+    .about-role{
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 60%;
+}
+}

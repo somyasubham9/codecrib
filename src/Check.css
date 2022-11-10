@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.check-container{
+    background: #eff4fd;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+
+
+}
+
+
+
+.Loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30%; */
+    height: 50rem;
+}

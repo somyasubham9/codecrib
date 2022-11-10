@@ -1,0 +1,108 @@
+#form-file-upload {
+    height: 28rem;
+    width: 32rem;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    /* padding: 5%; */
+    /* margin-top: 15rem; */
+    margin-left: 30rem; 
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  #input-file-upload {
+    display: none;
+  }
+  
+  #label-file-upload {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+  }
+  
+  #label-file-upload.drag-active {
+    background-color: #ffffff;
+  }
+  
+  .upload-button {
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+  }
+  
+  .upload-button:hover {
+    text-decoration-line: underline;
+  }
+  
+  #drag-file-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .check-btn {
+    margin: 2%;
+    align-items: center;
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-btn button{
+  /* margin-left: 9rem; */
+  
+  border: none;
+  padding: 0.8em 2.5em;
+  outline: none;
+  color: white;
+  font-style: 1.2em;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  background: none;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.check-btn button:before,
+.check-btn button:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10em;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 105%;
+  height: 105%;
+  content: "";
+  z-index: -2;
+  background-size: 400% 400%;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}

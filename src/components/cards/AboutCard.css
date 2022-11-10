@@ -1,0 +1,38 @@
+.about-card-div{
+    height: 16rem;
+    width: 18rem;
+    padding: 20px 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: linear-gradient(90deg, #021b79, #240b36);
+    color: white;
+}
+
+.about-card-div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s;
+}
+
+.about-card-icon{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.image-fit-about{
+    height: 100%;
+    width: 100%;
+}
+
+.about-card-heading{
+    /* font-size: 0.8rem; */
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about-card-para{
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin: 15px 0;
+}
