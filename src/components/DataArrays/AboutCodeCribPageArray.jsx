@@ -1,33 +1,27 @@
 const AboutCodeCribPageArray = [
   {
     img_url: "ai-powered-tech.png",
-    about_head: "Code Plagiarism Checker",
+    about_head: "Code Plagiarism Detector",
     about_para:
       "Scan Your Code For Unintentional Plagiarism.",
   },
   {
     img_url: "sitecompare.png",
-    about_head: "SiteCompare",
+    about_head: "Sequence Matcher",
     about_para:
-      "Compare two different websites, including all individual webpages, against one another to find possible copyright infringement. ",
+      "With the assistance of our detailed plagiarism analysis and score,we can quickly and precisely evaluate all instances of plagiarized content in your work ",
   },
   {
     img_url: "accuratereports.png",
     about_head: "Accurate Reports",
     about_para:
-      "We break down similar results for you. All similar matches, statistics, suspected sources, and similarity percentages can be found in easy and comprehensive reports.",
-  },
-  {
-    img_url: "comprehensivecomparison.png",
-    about_head: "Comprehensive Comparisons",
-    about_para:
-      "Compare documents against one other, billions of sources from the internet, open access journals, and the Copyleaks Internal Database for the most accurate results.",
+      "Provides the Similarity Percentage Score",
   },
   {
     img_url: "downloadreport.png",
     about_head: "Download and Share Similarity Reports",
     about_para:
-      "Share the similarity reports for each comparison with others through email, URL, and download it as a PDF report.",
+      "Real time Report and Analysis",
   }
 ];
 
