@@ -8,7 +8,7 @@ function Home() {
         <div className="d-flex parts align-items-center">
           <div className="part1 text-center text-white d-flex align-items-center justify-content-center flex-column">
             <h3 className="my-5" data-aos="slide-right">
-              <b>Devloped your Code !</b>
+              <b>Developed your Code !</b>
             </h3>
             <div className="h-50 p-1">
               <lottie-player
