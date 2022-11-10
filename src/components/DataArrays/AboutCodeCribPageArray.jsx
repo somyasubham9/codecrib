@@ -1,9 +1,9 @@
 const AboutCodeCribPageArray = [
   {
     img_url: "ai-powered-tech.png",
-    about_head: "AI-Powered Technology",
+    about_head: "Code Plagiarism Checker",
     about_para:
-      "Copyleaks uses advanced AI and Machine Learning technology that can find even the slightest change and identical and paraphrased text.",
+      "Scan Your Code For Unintentional Plagiarism.",
   },
   {
     img_url: "sitecompare.png",
