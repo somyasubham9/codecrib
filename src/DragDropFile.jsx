@@ -23,7 +23,7 @@ function DragDropFile() {
 
     axios
       .post(
-        "https://plagiarism-checker-crawlers.herokuapp.com/api/upload/",
+        "hhttps://web-production-b98b.up.railway.app/api/upload/",
         formData
       )
       .then((response) => {
